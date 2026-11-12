@@ -1,0 +1,95 @@
+/* De Havilland Canada Dash 8 Electronic Instrument Array (EIA) v1.0. Created by Evripides E. Efthymiou for SimWorks Studios Ltd., 2026  */
+body {
+	/* background-color: purple; */
+	/* background-color: #2e2e2e; */
+	background-color: #101010;
+}
+
+#developmentGridContainer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+
+	49% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.elementBlink {
+	animation: blink 1.5s;
+	animation-iteration-count: infinite;
+}
+
+#gasGeneratorSpeed1Readout {
+	position: absolute;
+	top: -37px;
+	left: 70px;
+}
+
+#torqueIndicator1Readout {
+	position: absolute;
+	top: -37px;
+	left: 500px;
+}
+
+#torqueIndicator2Readout {
+	position: absolute;
+	top: 128px;
+	left: 70px;
+}
+
+#gasGeneratorSpeed2Readout {
+	position: absolute;
+	top: 128px;
+	left: 500px;
+}
+
+#fuelFlow1Readout {
+	position: absolute;
+	top: 303px;
+	left: 70px;
+}
+
+#propellerRPM1Readout {
+	position: absolute;
+	top: 303px;
+	left: 500px;
+}
+
+#propellerRPM2Readout {
+	position: absolute;
+	top: 478px;
+	left: 70px;
+}
+
+#fuelFlow2Readout {
+	position: absolute;
+	top: 478px;
+	left: 500px;
+}
+
+#ITT1Readout {
+	position: absolute;
+	top: 648px;
+	left: 70px;
+}
+
+#ITT2Readout {
+	position: absolute;
+	top: 648px;
+	left: 500px;
+}
